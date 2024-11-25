@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+CZ:wght@100..400&display=swap');
+
+* {
+  padding: 0px;
+  margin: 0px;
+  font-size: 20px;
+}
+
+.header-container {
+  padding: 25px;
+  background-color: black;
+}
+
+.nav-pane {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-pane ul {
+  display: flex;
+  align-items: center;
+}
+
+.nav-pane ul li {
+  list-style: none;
+  margin-inline: 20px;
+  cursor: pointer;
+}
+
+.nav-pane ul li a {
+  text-decoration: none;
+}
+
+.pop, 
+.nav-pane ul li a {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+}
+
+.movies {
+  font-family: "Playwrite CZ", cursive;
+  color: rgb(158, 36, 46);
+}
